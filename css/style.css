@@ -35,6 +35,8 @@ body{
     margin-left: 25%;
 }
 
+
+
 #sidebar.visible .button {
 float:right;
 text-decoration:none;
@@ -46,16 +48,24 @@ font-size: 1rem;
 font-weight: 200;
 line-height: 2rem;
 padding: 0 1rem;
+
 margin-right: 10px;
 position: relative;
 white-space: nowrap;
 
 }
 
-#sidebar .visible #uzr {
+#sidebar.visible #uzr {
+    margin-left: 40px;
+    padding: 15px;
+    font-size:90px;	
+    color:#ccc;
 
-margin-left:50px;
 }
+#sidebar.visible #test {
+display: block;
+}
+
 
 #sidebar.visible #test a {
     display: inline-block;
@@ -63,7 +73,7 @@ margin-left:50px;
 }
 
 #test {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 ul{
