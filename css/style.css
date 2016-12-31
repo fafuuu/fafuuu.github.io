@@ -30,6 +30,41 @@ body{
    font-size: 24px; 
    float: left;
 }
+#sidebar.visible #user {
+    font-size:80px;
+    margin-left: 25%;
+}
+
+#sidebar.visible .button {
+float:right;
+text-decoration:none;
+background-color: #2ecc71;
+color: white;
+cursor: pointer;
+display: inline-block;
+font-size: 1rem;
+font-weight: 200;
+line-height: 2rem;
+padding: 0 1rem;
+margin-right: 10px;
+position: relative;
+white-space: nowrap;
+
+}
+
+#sidebar .visible #uzr {
+
+margin-left:50px;
+}
+
+#sidebar.visible #test a {
+    display: inline-block;
+    position: relative;
+}
+
+#test {
+    margin-top: 200px;
+}
 
 ul{
     margin:0px;
@@ -80,6 +115,8 @@ ul li a:hover {
 
 
 #movie-info {
-  margin-left:250px;
+   margin-left:250px;
 }
+
+
 

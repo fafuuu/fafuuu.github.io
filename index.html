@@ -14,8 +14,19 @@
 	<li id="python"><a href="#"><i class="icon-python"></i> Python</a></li>
 	<li id="shell"><a href="#"><i class="icon-shell"></i> Shell</a></li>
 	<li id="linux"><a href="#"> <i class="icon-debian"></i> GNU/Linux</a></li>
-	<li><a href="#"> <i class="fa fa-html5 fa-1g" aria-hidden="true"></i>HTML5</a></li>
-	<li id="reddit"><a href="#"> <i class="fa fa-reddit" aria-hidden="true"></i></a></li>
+	<li><a href="#"> <i class="fa fa-html5 fa-1g" aria-hidden="true"></i> HTML5</a></li>
+	<li id="reddit"><a href="#"> <i class="fa fa-reddit" aria-hidden="true"> </i> Reddit</a></li>
+	18:20
+	<li><a href="#"></a>
+	
+	</li>
+
+	<div id="test">
+		<i id="uzr" class="fa fa-user-circle" aria-hidden="true"></i>
+		<a v-on:click="addName()" class="button" href="#">Sign in</a>
+		<a class="button" href="#">Sign up</a>	
+	</div>
+	
    </ul>
 
      <div id="sidebar-btn">
@@ -31,7 +42,30 @@
     <div id ="reddit-info"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="main.js"></script>
+
+<script>
+	
+	var app = new Vue({
+		el: '#sidebar',
+
+		data: {
+		    names: ['Java', 'Python', 'Shell']
+		},
+
+		methods: {
+		
+		    addName: function() {
+ 			alert('adding name');
+		    }
+		},
+
+	//	mounted() {
+
+	//	}
+	});
+</script>
 
 </body>
 </html>
