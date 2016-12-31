@@ -5,6 +5,7 @@ body{
 }
 
 #sidebar{
+    
     background:#151718;
     width: 200px;
     height: 100%;
@@ -16,6 +17,7 @@ body{
 }
 
 #sidebar i {
+   text-align: center;
    float:right;
    font-size: 30px;
    margin-left: 15px;
@@ -85,6 +87,7 @@ white-space: nowrap;
 }
 
 ul{
+   
     margin:0px;
     padding:0px;
 }
@@ -92,6 +95,7 @@ ul{
 ul {
     list-style:none;
 }
+
 
 ul li a{
     
